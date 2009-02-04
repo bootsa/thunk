@@ -1,0 +1,114 @@
+html, body { background-color: #fff; color: #333; height: 100%; margin: 0px }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a { color: #000; }
+a:visited { color: #666; }
+a:hover { color: #fff; background-color:#000; }
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+.infoPane {
+  color: green;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  border: thick solid green;
+  z-index: 999;
+}
+
+.bkgdContainer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  z-index:0;
+}
+
+.bkgdTitle {
+  position: relative;
+  top: 40%;
+  left: 4%;
+  font-weight: bold;
+  font-size: 144pt;
+  color: #eee;
+}
+
+.container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  z-index: 10;  
+}
+
+.thoughtForm {
+  position: relative;
+  top: 10%;
+  text-align: center;
+  
+}
+.thoughtForm textarea {
+  border: black solid thin;
+  background-color: transparent;
+  font-size: xx-large;
+#  vertical-align: bottom;
+# may need to remove the following line once autoexpand textarea works;
+  height: 11.00em;
+}
+
+.postToServicesSelection {
+  position: relative;
+  right: 10px; 
+  height: 20px;
+  width: 100px;
+  background-color: #333;
+}

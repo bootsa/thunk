@@ -1,0 +1,15 @@
+<div class="bkgdContainer">
+  <span class="bkgdTitle">thought</span>
+</div>
+
+<div class="container">
+ <div class="thoughtForm">
+  <% form_for(@thought) do |f| %>
+    <%= f.text_area :content %>
+    <span style="text-align:right">
+      <%= f.submit "Create" %>
+    </span>
+    <%= f.error_messages %>
+    <div class="postToServicesSelection">nbsp;</diiv>
+  <% end %>
+</div>

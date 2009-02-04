@@ -1,0 +1,16 @@
+<h1>Listing thoughts</h1>
+
+<table>
+<% for thought in @thoughts %>
+  <tr>
+    <td><%=h thought.created_at %></td>
+    <td><%=h thought.content %></td>
+    <td><%= link_to 'Show', thought %></td>
+    <td><%= link_to 'Edit', edit_thought_path(thought) %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New thought', new_thought_path %>
