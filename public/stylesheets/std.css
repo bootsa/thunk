@@ -107,9 +107,11 @@ a:hover { color: #fff; background-color:#000; }
 }
 
 .timelineContainer {
+  position: absolute;
+  
   width: 100%;
   bottom: 0px;
-  text-align: center;
+  text-align: right;
   z-index: 800;
 }
 
