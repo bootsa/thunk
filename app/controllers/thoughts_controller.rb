@@ -1,7 +1,4 @@
 class ThoughtsController < ApplicationController
-
-  @basesite = "http://thunk.herokugarden.com"
-
   # GET /thoughts
   # GET /thoughts.xml
   def index
@@ -11,6 +8,7 @@ class ThoughtsController < ApplicationController
       format.html # index.html.erb
       format.xml  { render :xml => @thoughts }
       format.rss {
+       @basesite = "http://thunk.herokugarden.com"
        headers["Content-Type"] = "application/xml"
        render :layout => false
       }
