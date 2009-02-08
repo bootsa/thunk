@@ -6,12 +6,15 @@
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <title>thoughts</title>
   <%= stylesheet_link_tag 'std' %>
+  <link href="thoughts.rss" title="Thoughts" type="application/rss+xml" rel="alternate"/>
 </head>
 <body>
 
-<div class="infoPane"><%= flash[:notice] %></div>
+ <% if flash[:notice] -%>
+  <div class="infoPane"><%= flash[:notice] %></div>
+ <% end -%>
 
-<%= yield  %>
+ <%= yield  %>
 
 </body>
 </html>

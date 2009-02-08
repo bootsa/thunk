@@ -52,8 +52,8 @@ class ThoughtsController < ApplicationController
 
     respond_to do |format|
       if @thought.save
-        flash[:notice] = 'Thought was successfully created.'
-        format.html { redirect_to(@thought) }
+        flash[:notice] = "#{@thought.content} has been remembered."
+        format.html { redirect_to :action => "new" }
         format.xml  { render :xml => @thought, :status => :created, :location => @thought }
       else
         format.html { render :action => "new" }

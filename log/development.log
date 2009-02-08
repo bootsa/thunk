@@ -4231,3 +4231,1310 @@ Processing ThoughtsController#index to rss (for 127.0.0.1 at 2009-02-04 22:42:01
   [4;36;1mThought Load (2.4ms)[0m   [0;1mSELECT * FROM "thoughts" [0m
 Rendering thoughts/index
 Completed in 192ms (View: 166, DB: 2) | 200 OK [http://localhost/thoughts.rss]
+
+
+Processing ThoughtsController#index (for 127.0.0.1 at 2009-02-05 00:19:44) [GET]
+  [4;35;1mThought Load (2.6ms)[0m   [0mSELECT * FROM "thoughts" [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/index
+Completed in 210ms (View: 185, DB: 3) | 200 OK [http://localhost/thoughts]
+
+
+Processing ThoughtsController#index to rss (for 127.0.0.1 at 2009-02-05 00:23:54) [GET]
+  [4;36;1mThought Load (2.5ms)[0m   [0;1mSELECT * FROM "thoughts" [0m
+Rendering thoughts/index
+Completed in 93ms (View: 62, DB: 2) | 200 OK [http://localhost/thoughts.rss]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-08 07:07:35) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  actionpack (2.3.0) lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:437:in `recognize'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:432:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:9:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-08 07:07:40) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  actionpack (2.3.0) lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:437:in `recognize'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:432:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:9:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-08 07:07:46) [GET]
+
+ActionController::RoutingError (No route matches "/thought" with {:method=>:get}):
+  actionpack (2.3.0) lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:437:in `recognize'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:432:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:9:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (not_found)
+
+
+Processing ThoughtsController#index (for 127.0.0.1 at 2009-02-08 07:07:50) [GET]
+  [4;36;1mThought Load (2.9ms)[0m   [0;1mSELECT * FROM "thoughts" [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/index
+Completed in 452ms (View: 413, DB: 3) | 200 OK [http://localhost/thoughts]
+
+
+Processing ThoughtsController#new (for 127.0.0.1 at 2009-02-08 07:07:54) [GET]
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 96ms (View: 68, DB: 0) | 200 OK [http://localhost/thoughts/new]
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 07:10:07) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RIFlwZqzTpaBppvKRSZnJJq9W22fnsNf7JozXuL+DSY=", "thought"=>{"content"=>"it seems only natural that children who have grown up with everything coming ready made and complete - from food to housing to toys - have (predominantly) only one way to explore things... to destroy them/take them apart."}}
+
+NoMethodError (undefined method `thought' for #<Thought:0xb7a2094c>):
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/attribute_methods.rb:260:in `method_missing'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:397:in `send'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:397:in `validates_each'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:396:in `each'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:396:in `validates_each'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:182:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:182:in `evaluate_method'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:166:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `run'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `each'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `send'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `run'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:276:in `run_callbacks'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:1029:in `valid_without_callbacks?'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/callbacks.rb:287:in `valid_without_autosave_associations?'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/autosave_association.rb:166:in `valid?'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:1008:in `save_without_dirty'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/dirty.rb:79:in `save_without_autosave_associations'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/autosave_association.rb:147:in `save_without_transactions'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:229:in `send'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:229:in `with_transaction_returning_status'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/connection_adapters/abstract/database_statements.rb:136:in `transaction'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:182:in `transaction'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:228:in `with_transaction_returning_status'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:196:in `save'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:208:in `rollback_active_record_state!'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:196:in `save'
+  app/controllers/thoughts_controller.rb:54:in `create'
+  actionpack (2.3.0) lib/action_controller/mime_responds.rb:106:in `call'
+  actionpack (2.3.0) lib/action_controller/mime_responds.rb:106:in `respond_to'
+  app/controllers/thoughts_controller.rb:53:in `create'
+  actionpack (2.3.0) lib/action_controller/base.rb:1261:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:1261:in `perform_action_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:617:in `call_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/rescue.rb:154:in `perform_action_without_flash'
+  actionpack (2.3.0) lib/action_controller/flash.rb:141:in `perform_action'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:391:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:386:in `call'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:433:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:9:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendered rescues/_trace (321.8ms)
+Rendered rescues/_request_and_response (2.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 07:11:04) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RIFlwZqzTpaBppvKRSZnJJq9W22fnsNf7JozXuL+DSY=", "thought"=>{"content"=>"it seems only natural that children who have grown up with everything coming ready made and complete - from food to housing to toys - have (predominantly) only one way to explore things... to destroy them/take them apart."}}
+
+NoMethodError (undefined method `thought' for #<Thought:0xb7848b38>):
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/attribute_methods.rb:260:in `method_missing'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:397:in `send'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:397:in `validates_each'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:396:in `each'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:396:in `validates_each'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:182:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:182:in `evaluate_method'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:166:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `run'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `each'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `send'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `run'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:276:in `run_callbacks'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:1029:in `valid_without_callbacks?'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/callbacks.rb:287:in `valid_without_autosave_associations?'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/autosave_association.rb:166:in `valid?'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:1008:in `save_without_dirty'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/dirty.rb:79:in `save_without_autosave_associations'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/autosave_association.rb:147:in `save_without_transactions'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:229:in `send'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:229:in `with_transaction_returning_status'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/connection_adapters/abstract/database_statements.rb:136:in `transaction'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:182:in `transaction'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:228:in `with_transaction_returning_status'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:196:in `save'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:208:in `rollback_active_record_state!'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:196:in `save'
+  app/controllers/thoughts_controller.rb:54:in `create'
+  actionpack (2.3.0) lib/action_controller/mime_responds.rb:106:in `call'
+  actionpack (2.3.0) lib/action_controller/mime_responds.rb:106:in `respond_to'
+  app/controllers/thoughts_controller.rb:53:in `create'
+  actionpack (2.3.0) lib/action_controller/base.rb:1261:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:1261:in `perform_action_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:617:in `call_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/rescue.rb:154:in `perform_action_without_flash'
+  actionpack (2.3.0) lib/action_controller/flash.rb:141:in `perform_action'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:391:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:386:in `call'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:433:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:9:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendered rescues/_trace (242.4ms)
+Rendered rescues/_request_and_response (2.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 07:27:56) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RIFlwZqzTpaBppvKRSZnJJq9W22fnsNf7JozXuL+DSY=", "thought"=>{"content"=>"it seems only natural that children who have grown up with everything coming ready made and complete - from food to housing to toys - have (predominantly) only one way to explore things... to destroy them/take them apart."}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.save):
+  app/controllers/thoughts_controller.rb:54:in `create'
+  actionpack (2.3.0) lib/action_controller/mime_responds.rb:106:in `call'
+  actionpack (2.3.0) lib/action_controller/mime_responds.rb:106:in `respond_to'
+  app/controllers/thoughts_controller.rb:53:in `create'
+  actionpack (2.3.0) lib/action_controller/base.rb:1261:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:1261:in `perform_action_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:617:in `call_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/rescue.rb:154:in `perform_action_without_flash'
+  actionpack (2.3.0) lib/action_controller/flash.rb:141:in `perform_action'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:391:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:386:in `call'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:433:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:9:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendered rescues/_trace (241.7ms)
+Rendered rescues/_request_and_response (2.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 07:28:26) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RIFlwZqzTpaBppvKRSZnJJq9W22fnsNf7JozXuL+DSY=", "thought"=>{"content"=>"it seems only natural that children who have grown up with everything coming ready made and complete - from food to housing to toys - have (predominantly) only one way to explore things... to destroy them/take them apart."}}
+
+NoMethodError (undefined method `thought' for #<Thought:0xb7399768>):
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/attribute_methods.rb:260:in `method_missing'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:397:in `send'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:397:in `validates_each'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:396:in `each'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:396:in `validates_each'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:182:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:182:in `evaluate_method'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:166:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `run'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `each'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `send'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `run'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:276:in `run_callbacks'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:1029:in `valid_without_callbacks?'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/callbacks.rb:287:in `valid_without_autosave_associations?'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/autosave_association.rb:166:in `valid?'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:1008:in `save_without_dirty'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/dirty.rb:79:in `save_without_autosave_associations'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/autosave_association.rb:147:in `save_without_transactions'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:229:in `send'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:229:in `with_transaction_returning_status'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/connection_adapters/abstract/database_statements.rb:136:in `transaction'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:182:in `transaction'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:228:in `with_transaction_returning_status'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:196:in `save'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:208:in `rollback_active_record_state!'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:196:in `save'
+  app/controllers/thoughts_controller.rb:54:in `create'
+  actionpack (2.3.0) lib/action_controller/mime_responds.rb:106:in `call'
+  actionpack (2.3.0) lib/action_controller/mime_responds.rb:106:in `respond_to'
+  app/controllers/thoughts_controller.rb:53:in `create'
+  actionpack (2.3.0) lib/action_controller/base.rb:1261:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:1261:in `perform_action_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:617:in `call_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/rescue.rb:154:in `perform_action_without_flash'
+  actionpack (2.3.0) lib/action_controller/flash.rb:141:in `perform_action'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:391:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:386:in `call'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:433:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:9:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendered rescues/_trace (323.3ms)
+Rendered rescues/_request_and_response (9.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 07:29:16) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RIFlwZqzTpaBppvKRSZnJJq9W22fnsNf7JozXuL+DSY=", "thought"=>{"content"=>"it seems only natural that children who have grown up with everything coming ready made and complete - from food to housing to toys - have (predominantly) only one way to explore things... to destroy them/take them apart."}}
+
+ActionView::MissingTemplate (Missing template thoughts/create.erb in view path app/views):
+  actionpack (2.3.0) lib/action_view/template.rb:221:in `find_full_path'
+  actionpack (2.3.0) lib/action_view/template.rb:102:in `initialize'
+  actionpack (2.3.0) lib/action_view/paths.rb:54:in `new'
+  actionpack (2.3.0) lib/action_view/paths.rb:54:in `find_template'
+  actionpack (2.3.0) lib/action_controller/base.rb:1319:in `default_template'
+  actionpack (2.3.0) lib/action_controller/base.rb:869:in `render_without_benchmark'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:51:in `render'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:51:in `render'
+  actionpack (2.3.0) lib/action_controller/base.rb:1256:in `default_render'
+  actionpack (2.3.0) lib/action_controller/base.rb:1262:in `perform_action_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:617:in `call_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/rescue.rb:154:in `perform_action_without_flash'
+  actionpack (2.3.0) lib/action_controller/flash.rb:141:in `perform_action'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:391:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:386:in `call'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:433:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:9:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ThoughtsController#index (for 127.0.0.1 at 2009-02-08 07:29:33) [GET]
+  [4;36;1mThought Load (2.4ms)[0m   [0;1mSELECT * FROM "thoughts" [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/index
+Completed in 430ms (View: 400, DB: 2) | 200 OK [http://localhost/thoughts/]
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 07:30:34) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RIFlwZqzTpaBppvKRSZnJJq9W22fnsNf7JozXuL+DSY=", "thought"=>{"content"=>"it seems only natural that children who have grown up with everything coming ready made and complete - from food to housing to toys - have (predominantly) only one way to explore things... to destroy them/take them apart."}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.call):
+  actionpack (2.3.0) lib/action_controller/mime_responds.rb:175:in `respond'
+  actionpack (2.3.0) lib/action_controller/mime_responds.rb:173:in `each'
+  actionpack (2.3.0) lib/action_controller/mime_responds.rb:173:in `respond'
+  actionpack (2.3.0) lib/action_controller/mime_responds.rb:107:in `respond_to'
+  app/controllers/thoughts_controller.rb:53:in `create'
+  actionpack (2.3.0) lib/action_controller/base.rb:1261:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:1261:in `perform_action_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:617:in `call_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/rescue.rb:154:in `perform_action_without_flash'
+  actionpack (2.3.0) lib/action_controller/flash.rb:141:in `perform_action'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:391:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:386:in `call'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:433:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:9:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendered rescues/_trace (199.7ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 07:31:05) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RIFlwZqzTpaBppvKRSZnJJq9W22fnsNf7JozXuL+DSY=", "thought"=>{"content"=>"it seems only natural that children who have grown up with everything coming ready made and complete - from food to housing to toys - have (predominantly) only one way to explore things... to destroy them/take them apart."}}
+Redirected to #<Thought:0xb788f628>
+Completed in 38ms (DB: 0) | 302 Found [http://localhost/thoughts]
+
+
+Processing ThoughtsController#index (for 127.0.0.1 at 2009-02-08 07:31:06) [GET]
+  [4;35;1mThought Load (2.9ms)[0m   [0mSELECT * FROM "thoughts" [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/index
+Completed in 279ms (View: 231, DB: 3) | 200 OK [http://localhost/thoughts]
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 07:31:40) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RIFlwZqzTpaBppvKRSZnJJq9W22fnsNf7JozXuL+DSY=", "thought"=>{"content"=>"it seems only natural that children who have grown up with everything coming ready made and complete - from food to housing to toys - have (predominantly) only one way to explore things... to destroy them/take them apart."}}
+
+NoMethodError (undefined method `thought' for #<Thought:0xb7507cd0>):
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/attribute_methods.rb:260:in `method_missing'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:397:in `send'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:397:in `validates_each'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:396:in `each'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:396:in `validates_each'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:182:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:182:in `evaluate_method'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:166:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `run'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `each'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `send'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `run'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:276:in `run_callbacks'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:1029:in `valid_without_callbacks?'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/callbacks.rb:287:in `valid_without_autosave_associations?'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/autosave_association.rb:166:in `valid?'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:1008:in `save_without_dirty'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/dirty.rb:79:in `save_without_autosave_associations'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/autosave_association.rb:147:in `save_without_transactions'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:229:in `send'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:229:in `with_transaction_returning_status'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/connection_adapters/abstract/database_statements.rb:136:in `transaction'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:182:in `transaction'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:228:in `with_transaction_returning_status'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:196:in `save'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:208:in `rollback_active_record_state!'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:196:in `save'
+  app/controllers/thoughts_controller.rb:54:in `create'
+  actionpack (2.3.0) lib/action_controller/mime_responds.rb:106:in `call'
+  actionpack (2.3.0) lib/action_controller/mime_responds.rb:106:in `respond_to'
+  app/controllers/thoughts_controller.rb:53:in `create'
+  actionpack (2.3.0) lib/action_controller/base.rb:1261:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:1261:in `perform_action_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:617:in `call_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/rescue.rb:154:in `perform_action_without_flash'
+  actionpack (2.3.0) lib/action_controller/flash.rb:141:in `perform_action'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:391:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:386:in `call'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:433:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:9:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendered rescues/_trace (391.3ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 07:32:00) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RIFlwZqzTpaBppvKRSZnJJq9W22fnsNf7JozXuL+DSY=", "thought"=>{"content"=>"it seems only natural that children who have grown up with everything coming ready made and complete - from food to housing to toys - have (predominantly) only one way to explore things... to destroy them/take them apart."}}
+
+NoMethodError (undefined method `thought' for #<Thought:0xb727c8e4>):
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/attribute_methods.rb:260:in `method_missing'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:397:in `send'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:397:in `validates_each'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:396:in `each'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:396:in `validates_each'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:182:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:182:in `evaluate_method'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:166:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `run'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `each'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `send'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:90:in `run'
+  /home/steph/.gem/ruby/1.8/gems/activesupport-2.3.0/lib/active_support/callbacks.rb:276:in `run_callbacks'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:1029:in `valid_without_callbacks?'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/callbacks.rb:287:in `valid_without_autosave_associations?'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/autosave_association.rb:166:in `valid?'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/validations.rb:1008:in `save_without_dirty'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/dirty.rb:79:in `save_without_autosave_associations'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/autosave_association.rb:147:in `save_without_transactions'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:229:in `send'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:229:in `with_transaction_returning_status'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/connection_adapters/abstract/database_statements.rb:136:in `transaction'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:182:in `transaction'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:228:in `with_transaction_returning_status'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:196:in `save'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:208:in `rollback_active_record_state!'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/transactions.rb:196:in `save'
+  app/controllers/thoughts_controller.rb:54:in `create'
+  actionpack (2.3.0) lib/action_controller/mime_responds.rb:106:in `call'
+  actionpack (2.3.0) lib/action_controller/mime_responds.rb:106:in `respond_to'
+  app/controllers/thoughts_controller.rb:53:in `create'
+  actionpack (2.3.0) lib/action_controller/base.rb:1261:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:1261:in `perform_action_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:617:in `call_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/rescue.rb:154:in `perform_action_without_flash'
+  actionpack (2.3.0) lib/action_controller/flash.rb:141:in `perform_action'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:391:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:386:in `call'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:433:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:29:in `call'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:9:in `cache'
+  /home/steph/.gem/ruby/1.8/gems/activerecord-2.3.0/lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendered rescues/_trace (575.8ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 07:32:20) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RIFlwZqzTpaBppvKRSZnJJq9W22fnsNf7JozXuL+DSY=", "thought"=>{"content"=>"it seems only natural that children who have grown up with everything coming ready made and complete - from food to housing to toys - have (predominantly) only one way to explore things... to destroy them/take them apart."}}
+Redirected to #<Thought:0xb74ac880>
+Completed in 73ms (DB: 0) | 302 Found [http://localhost/thoughts]
+
+
+Processing ThoughtsController#index (for 127.0.0.1 at 2009-02-08 07:32:21) [GET]
+  [4;36;1mThought Load (2.5ms)[0m   [0;1mSELECT * FROM "thoughts" [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/index
+Completed in 179ms (View: 134, DB: 3) | 200 OK [http://localhost/thoughts]
+
+
+Processing ThoughtsController#index (for 127.0.0.1 at 2009-02-08 08:17:14) [GET]
+  [4;36;1mThought Load (2.2ms)[0m   [0;1mSELECT * FROM "thoughts" [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/index
+Completed in 282ms (View: 259, DB: 2) | 200 OK [http://localhost/thoughts]
+
+
+Processing ThoughtsController#new (for 127.0.0.1 at 2009-02-08 08:22:08) [GET]
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 84ms (View: 56, DB: 0) | 200 OK [http://localhost/thoughts/new]
+
+
+Processing ThoughtsController#new (for 127.0.0.1 at 2009-02-08 08:22:35) [GET]
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 82ms (View: 53, DB: 0) | 200 OK [http://localhost/thoughts/new]
+
+
+Processing ThoughtsController#new (for 127.0.0.1 at 2009-02-08 08:22:58) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMGI0M2I1MmJkNjRiMGYwNDBjMDNiNDY0YWI4YmMz
+NzQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--359079e63e205379d41529566615c91cb88e65c4
+  Parameters: {"action"=>"new", "controller"=>"thoughts"}
+
+
+CGI::Session::CookieStore::TamperedWithCookie (CGI::Session::CookieStore::TamperedWithCookie):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session/cookie_store.rb:144:in `unmarshal'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session/cookie_store.rb:101:in `restore'
+    /usr/lib/ruby/1.8/cgi/session.rb:310:in `[]'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/cgi_process.rb:136:in `session'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/cgi_process.rb:168:in `stale_session_check!'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/cgi_process.rb:116:in `session'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1135:in `assign_shortcuts_without_flash'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/flash.rb:166:in `assign_shortcuts'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:523:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ThoughtsController#new (for 127.0.0.1 at 2009-02-08 08:23:09) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--83d4260665327bf9134a4a1bb6a080a97bb74056
+  Parameters: {"action"=>"new", "controller"=>"thoughts"}
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 0.05127 (19 reqs/sec) | Rendering: 0.02338 (45%) | DB: 0.00000 (0%) | 200 OK [http://localhost/thoughts/new]
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 08:23:42) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--a5b772246ffddf35822448a4dc8f20da73a74115
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7ecc7788e2ca8325a50511421b9112f2cf1bbf7b", "action"=>"create", "thought"=>{"content"=>"it seems only natural that children who have grown up with everything coming ready made and complete - from food to housing to toys - have (predominantly) only one way to explore things... to destroy them/take them apart."}, "controller"=>"thoughts"}
+Redirected to http://localhost:3000/thoughts
+Completed in 0.04086 (24 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/thoughts]
+
+
+Processing ThoughtsController#index (for 127.0.0.1 at 2009-02-08 08:23:42) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsGOgtub3RpY2UiJlRob3VnaHQgd2FzIHN1Y2Nlc3NmdWxseSBjcmVh
+dGVkLgY6CkB1c2VkewY7BkY6DGNzcmZfaWQiJWM4NTlkODI0ZmE2YWVlZTEw
+MTBiYjM3NjY0OTM1Njc4--62022c9fc652e756e1dc2210347f9b406e7d42a3
+  Parameters: {"action"=>"index", "controller"=>"thoughts"}
+  [4;36;1mThought Load (0.002634)[0m   [0;1mSELECT * FROM "thoughts" [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/index
+Completed in 0.14390 (6 reqs/sec) | Rendering: 0.11767 (81%) | DB: 0.00263 (1%) | 200 OK [http://localhost/thoughts]
+
+
+Processing ThoughtsController#index (for 127.0.0.1 at 2009-02-08 08:23:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZUaG91Z2h0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdU--431e5b1daefa057b153237ad2ad1d82b25926584
+  Parameters: {"action"=>"index", "controller"=>"thoughts"}
+  [4;35;1mThought Load (0.002464)[0m   [0mSELECT * FROM "thoughts" [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/index
+Completed in 0.04057 (24 reqs/sec) | Rendering: 0.01523 (37%) | DB: 0.00246 (6%) | 200 OK [http://localhost/thoughts]
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 08:24:27) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAx
+MGJiMzc2NjQ5MzU2Nzg=--f8541646e1aa90ff6f015d3b0b4c1cbd48e7e1eb
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7ecc7788e2ca8325a50511421b9112f2cf1bbf7b", "action"=>"create", "thought"=>{"content"=>"it seems only natural that children who have grown up with everything coming ready made and complete - from food to housing to toys - have (predominantly) only one way to explore things... to destroy them/take them apart."}, "controller"=>"thoughts"}
+  [4;36;1mThought Create (0.001140)[0m   [0;1mINSERT INTO "thoughts" ("created_at", "updated_at", "content") VALUES('2009-02-08 08:24:27', '2009-02-08 08:24:27', 'it seems only natural that children who have grown up with everything coming ready made and complete - from food to housing to toys - have (predominantly) only one way to explore things... to destroy them/take them apart.')[0m
+Redirected to http://localhost:3000/thoughts/3
+Completed in 0.06174 (16 reqs/sec) | DB: 0.00114 (1%) | 302 Found [http://localhost/thoughts]
+
+
+Processing ThoughtsController#show (for 127.0.0.1 at 2009-02-08 08:24:27) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZUaG91Z2h0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdG--c1ccf384ff35a5afb1e6d2c0fcdea113b2d73bfb
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"thoughts"}
+  [4;35;1mThought Load (0.001041)[0m   [0mSELECT * FROM "thoughts" WHERE ("thoughts"."id" = 3) [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/show
+Completed in 0.03957 (25 reqs/sec) | Rendering: 0.01013 (25%) | DB: 0.00104 (2%) | 200 OK [http://localhost/thoughts/3]
+
+
+Processing ThoughtsController#index (for 127.0.0.1 at 2009-02-08 08:24:30) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsGOgtub3RpY2UiJlRob3VnaHQgd2FzIHN1Y2Nlc3NmdWxseSBjcmVh
+dGVkLgY6CkB1c2VkewY7BlQ6DGNzcmZfaWQiJWM4NTlkODI0ZmE2YWVlZTEw
+MTBiYjM3NjY0OTM1Njc4--e47fa68c26dee307a348637cab1aba2d4edfcc55
+  Parameters: {"action"=>"index", "controller"=>"thoughts"}
+  [4;36;1mThought Load (0.002698)[0m   [0;1mSELECT * FROM "thoughts" [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/index
+Completed in 0.03829 (26 reqs/sec) | Rendering: 0.01376 (35%) | DB: 0.00270 (7%) | 200 OK [http://localhost/thoughts]
+
+
+Processing ThoughtsController#new (for 127.0.0.1 at 2009-02-08 08:25:09) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--a5b772246ffddf35822448a4dc8f20da73a74115
+  Parameters: {"action"=>"new", "controller"=>"thoughts"}
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 0.03486 (28 reqs/sec) | Rendering: 0.01157 (33%) | DB: 0.00000 (0%) | 200 OK [http://localhost/thoughts/new]
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 08:25:50) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAx
+MGJiMzc2NjQ5MzU2Nzg=--f8541646e1aa90ff6f015d3b0b4c1cbd48e7e1eb
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7ecc7788e2ca8325a50511421b9112f2cf1bbf7b", "action"=>"create", "thought"=>{"content"=>"rapid content capturer. extension to thought capturer. a db/webspace storage system with anamorphic data management."}, "controller"=>"thoughts"}
+  [4;35;1mThought Create (0.000845)[0m   [0mINSERT INTO "thoughts" ("created_at", "updated_at", "content") VALUES('2009-02-08 08:25:50', '2009-02-08 08:25:50', 'rapid content capturer. extension to thought capturer. a db/webspace storage system with anamorphic data management.')[0m
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 0.06133 (16 reqs/sec) | Rendering: 0.00788 (12%) | DB: 0.00084 (1%) | 200 OK [http://localhost/thoughts]
+
+
+Processing ThoughtsController#update (for 127.0.0.1 at 2009-02-08 08:26:14) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZUaG91Z2h0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdG--c1ccf384ff35a5afb1e6d2c0fcdea113b2d73bfb
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7ecc7788e2ca8325a50511421b9112f2cf1bbf7b", "_method"=>"put", "action"=>"update", "id"=>"4", "thought"=>{"content"=>"graphical content capturer tool. graphical creation of content capturer tools by using a series of module-type elements. A thought might be bolted together from the following modules: text input box (no internal input, outputs text), twitter module (input text, outputs api call), facebook module (input text, outputs api call), ..., save text to local db module (input text, output none)."}, "controller"=>"thoughts"}
+  [4;36;1mThought Load (0.001211)[0m   [0;1mSELECT * FROM "thoughts" WHERE ("thoughts"."id" = 4) [0m
+  [4;35;1mThought Update (0.001015)[0m   [0mUPDATE "thoughts" SET "updated_at" = '2009-02-08 08:26:14', "content" = 'graphical content capturer tool. graphical creation of content capturer tools by using a series of module-type elements. A thought might be bolted together from the following modules: text input box (no internal input, outputs text), twitter module (input text, outputs api call), facebook module (input text, outputs api call), ..., save text to local db module (input text, output none).' WHERE "id" = 4[0m
+Redirected to http://localhost:3000/thoughts/4
+Completed in 0.05164 (19 reqs/sec) | DB: 0.00223 (4%) | 302 Found [http://localhost/thoughts/4]
+
+
+Processing ThoughtsController#show (for 127.0.0.1 at 2009-02-08 08:26:14) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsGOgtub3RpY2UiJlRob3VnaHQgd2FzIHN1Y2Nlc3NmdWxseSB1cGRh
+dGVkLgY6CkB1c2VkewY7BkY6DGNzcmZfaWQiJWM4NTlkODI0ZmE2YWVlZTEw
+MTBiYjM3NjY0OTM1Njc4--b4b2d3be0516b10e9b4b767a5706786e19bc419c
+  Parameters: {"action"=>"show", "id"=>"4", "controller"=>"thoughts"}
+  [4;36;1mThought Load (0.000965)[0m   [0;1mSELECT * FROM "thoughts" WHERE ("thoughts"."id" = 4) [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/show
+Completed in 0.16079 (6 reqs/sec) | Rendering: 0.13349 (83%) | DB: 0.00096 (0%) | 200 OK [http://localhost/thoughts/4]
+
+
+Processing ThoughtsController#index (for 127.0.0.1 at 2009-02-08 08:26:18) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZUaG91Z2h0IHdhcyBzdWNjZXNzZnVsbHkgdXBkYXRl
+ZC4GOgpAdXNlZHsGOwdU--edb6e2a62f6d7154cfbaffa8f32b3f6ff6ebbfb1
+  Parameters: {"action"=>"index", "controller"=>"thoughts"}
+  [4;35;1mThought Load (0.002170)[0m   [0mSELECT * FROM "thoughts" [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/index
+Completed in 0.03746 (26 reqs/sec) | Rendering: 0.01531 (40%) | DB: 0.00217 (5%) | 200 OK [http://localhost/thoughts]
+
+
+Processing ThoughtsController#new (for 127.0.0.1 at 2009-02-08 08:26:40) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAx
+MGJiMzc2NjQ5MzU2Nzg=--f8541646e1aa90ff6f015d3b0b4c1cbd48e7e1eb
+  Parameters: {"action"=>"new", "controller"=>"thoughts"}
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 0.03307 (30 reqs/sec) | Rendering: 0.01005 (30%) | DB: 0.00000 (0%) | 200 OK [http://localhost/thoughts/new]
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 08:26:44) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--a5b772246ffddf35822448a4dc8f20da73a74115
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7ecc7788e2ca8325a50511421b9112f2cf1bbf7b", "action"=>"create", "thought"=>{"content"=>"rapid content capturer. extension to thought capturer. a db/webspace storage system with anamorphic data management."}, "controller"=>"thoughts"}
+  [4;36;1mThought Create (0.000998)[0m   [0;1mINSERT INTO "thoughts" ("created_at", "updated_at", "content") VALUES('2009-02-08 08:26:44', '2009-02-08 08:26:44', 'rapid content capturer. extension to thought capturer. a db/webspace storage system with anamorphic data management.')[0m
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 0.06524 (15 reqs/sec) | Rendering: 0.00876 (13%) | DB: 0.00100 (1%) | 200 OK [http://localhost/thoughts]
+
+
+Processing ThoughtsController#show (for 127.0.0.1 at 2009-02-08 08:27:11) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsGOgtub3RpY2UiJlRob3VnaHQgd2FzIHN1Y2Nlc3NmdWxseSBjcmVh
+dGVkLgY6CkB1c2VkewY7BkY6DGNzcmZfaWQiJWM4NTlkODI0ZmE2YWVlZTEw
+MTBiYjM3NjY0OTM1Njc4--62022c9fc652e756e1dc2210347f9b406e7d42a3
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"rss", "controller"=>"thoughts"}
+  [4;35;1mThought Load (0.000588)[0m   [0mSELECT * FROM "thoughts" WHERE ("thoughts"."id" = 0) [0m
+
+
+ActiveRecord::RecordNotFound (Couldn't find Thought with ID=rss):
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1379:in `find_one'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1362:in `find_from_ids'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:537:in `find'
+    /app/controllers/thoughts_controller.rb:24:in `show'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ThoughtsController#index (for 127.0.0.1 at 2009-02-08 08:27:18) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZUaG91Z2h0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdU--431e5b1daefa057b153237ad2ad1d82b25926584
+  Parameters: {"format"=>"rss", "action"=>"index", "controller"=>"thoughts"}
+  [4;36;1mThought Load (0.003475)[0m   [0;1mSELECT * FROM "thoughts" [0m
+Rendering thoughts/index
+Completed in 0.11162 (8 reqs/sec) | Rendering: 0.08504 (76%) | DB: 0.00348 (3%) | 200 OK [http://localhost/thoughts.rss]
+
+
+Processing ThoughtsController#index (for 127.0.0.1 at 2009-02-08 08:31:29) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAx
+MGJiMzc2NjQ5MzU2Nzg=--f8541646e1aa90ff6f015d3b0b4c1cbd48e7e1eb
+  Parameters: {"action"=>"index", "controller"=>"thoughts"}
+  [4;35;1mThought Load (0.003561)[0m   [0mSELECT * FROM "thoughts" [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/index
+Completed in 0.19397 (5 reqs/sec) | Rendering: 0.16706 (86%) | DB: 0.00356 (1%) | 200 OK [http://localhost/thoughts]
+
+
+Processing ThoughtsController#index (for 127.0.0.1 at 2009-02-08 08:31:33) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--a5b772246ffddf35822448a4dc8f20da73a74115
+  Parameters: {"format"=>"rss", "action"=>"index", "controller"=>"thoughts"}
+  [4;36;1mThought Load (0.003468)[0m   [0;1mSELECT * FROM "thoughts" [0m
+Rendering thoughts/index
+Completed in 0.11374 (8 reqs/sec) | Rendering: 0.08681 (76%) | DB: 0.00347 (3%) | 200 OK [http://localhost/thoughts.rss]
+
+
+Processing ThoughtsController#new (for 127.0.0.1 at 2009-02-08 08:34:45) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAx
+MGJiMzc2NjQ5MzU2Nzg=--f8541646e1aa90ff6f015d3b0b4c1cbd48e7e1eb
+  Parameters: {"action"=>"new", "controller"=>"thoughts"}
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 0.03987 (25 reqs/sec) | Rendering: 0.01410 (35%) | DB: 0.00000 (0%) | 200 OK [http://localhost/thoughts/new]
+
+
+Processing ThoughtsController#new (for 127.0.0.1 at 2009-02-08 08:34:51) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--a5b772246ffddf35822448a4dc8f20da73a74115
+  Parameters: {"action"=>"new", "controller"=>"thoughts"}
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 0.04070 (24 reqs/sec) | Rendering: 0.01238 (30%) | DB: 0.00000 (0%) | 200 OK [http://localhost/thoughts/new]
+
+
+Processing ThoughtsController#new (for 127.0.0.1 at 2009-02-08 08:34:56) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAx
+MGJiMzc2NjQ5MzU2Nzg=--f8541646e1aa90ff6f015d3b0b4c1cbd48e7e1eb
+  Parameters: {"action"=>"new", "controller"=>"thoughts"}
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 0.03941 (25 reqs/sec) | Rendering: 0.01370 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/thoughts/new]
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 08:36:00) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--a5b772246ffddf35822448a4dc8f20da73a74115
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7ecc7788e2ca8325a50511421b9112f2cf1bbf7b", "action"=>"create", "thought"=>{"content"=>"tomorrow, tomorrow, tomorrow..."}, "controller"=>"thoughts"}
+  [4;35;1mThought Create (0.000720)[0m   [0mINSERT INTO "thoughts" ("created_at", "updated_at", "content") VALUES('2009-02-08 08:36:00', '2009-02-08 08:36:00', 'tomorrow, tomorrow, tomorrow...')[0m
+Redirected to http://localhost:3000/thoughts/new
+Completed in 0.05063 (19 reqs/sec) | DB: 0.00072 (1%) | 302 Found [http://localhost/thoughts]
+
+
+Processing ThoughtsController#new (for 127.0.0.1 at 2009-02-08 08:36:00) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsGOgtub3RpY2UiJlRob3VnaHQgd2FzIHN1Y2Nlc3NmdWxseSBjcmVh
+dGVkLgY6CkB1c2VkewY7BkY6DGNzcmZfaWQiJWM4NTlkODI0ZmE2YWVlZTEw
+MTBiYjM3NjY0OTM1Njc4--62022c9fc652e756e1dc2210347f9b406e7d42a3
+  Parameters: {"action"=>"new", "controller"=>"thoughts"}
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 0.04669 (21 reqs/sec) | Rendering: 0.01108 (23%) | DB: 0.00000 (0%) | 200 OK [http://localhost/thoughts/new]
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 08:38:00) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZUaG91Z2h0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdU--431e5b1daefa057b153237ad2ad1d82b25926584
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7ecc7788e2ca8325a50511421b9112f2cf1bbf7b", "action"=>"create", "thought"=>{"content"=>"and then there was 3..."}, "controller"=>"thoughts"}
+  [4;36;1mThought Create (0.000944)[0m   [0;1mINSERT INTO "thoughts" ("created_at", "updated_at", "content") VALUES('2009-02-08 08:38:00', '2009-02-08 08:38:00', 'and then there was 3...')[0m
+Redirected to http://localhost:3000/thoughts/new
+Completed in 0.04605 (21 reqs/sec) | DB: 0.00094 (2%) | 302 Found [http://localhost/thoughts]
+
+
+Processing ThoughtsController#new (for 127.0.0.1 at 2009-02-08 08:38:00) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsGOgtub3RpY2UiLSN7OnRob3VnaHQuY29udGVudH0gaGFzIGJlZW4g
+cmVtZW1iZXJlZC4GOgpAdXNlZHsGOwZGOgxjc3JmX2lkIiVjODU5ZDgyNGZh
+NmFlZWUxMDEwYmIzNzY2NDkzNTY3OA==--c8a5a88bef5fb97106ef154c8ba8af7ef0a232d7
+  Parameters: {"action"=>"new", "controller"=>"thoughts"}
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 0.16350 (6 reqs/sec) | Rendering: 0.01190 (7%) | DB: 0.00000 (0%) | 200 OK [http://localhost/thoughts/new]
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 08:38:34) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIi0jezp0aG91Z2h0LmNvbnRlbnR9IGhhcyBiZWVuIHJl
+bWVtYmVyZWQuBjoKQHVzZWR7BjsHVA==--17feccee8babe64f4af2824e419cd777d249d199
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7ecc7788e2ca8325a50511421b9112f2cf1bbf7b", "action"=>"create", "thought"=>{"content"=>"eh?"}, "controller"=>"thoughts"}
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 0.05224 (19 reqs/sec) | Rendering: 0.01596 (30%) | DB: 0.00000 (0%) | 200 OK [http://localhost/thoughts]
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 08:38:52) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAx
+MGJiMzc2NjQ5MzU2Nzg=--f8541646e1aa90ff6f015d3b0b4c1cbd48e7e1eb
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7ecc7788e2ca8325a50511421b9112f2cf1bbf7b", "action"=>"create", "thought"=>{"content"=>"oh dear!"}, "controller"=>"thoughts"}
+  [4;35;1mThought Create (0.001065)[0m   [0mINSERT INTO "thoughts" ("created_at", "updated_at", "content") VALUES('2009-02-08 08:38:52', '2009-02-08 08:38:52', 'oh dear!')[0m
+Redirected to http://localhost:3000/thoughts/new
+Completed in 0.05133 (19 reqs/sec) | DB: 0.00107 (2%) | 302 Found [http://localhost/thoughts]
+
+
+Processing ThoughtsController#new (for 127.0.0.1 at 2009-02-08 08:38:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIi0je0B0aG91Z2h0LmNvbnRlbnR9IGhhcyBiZWVuIHJl
+bWVtYmVyZWQuBjoKQHVzZWR7BjsHRg==--fe3ce6a15c57b45e50c1f102e53c7abd5d8bfaa2
+  Parameters: {"action"=>"new", "controller"=>"thoughts"}
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 0.03573 (27 reqs/sec) | Rendering: 0.00908 (25%) | DB: 0.00000 (0%) | 200 OK [http://localhost/thoughts/new]
+
+
+Processing ThoughtsController#show (for 127.0.0.1 at 2009-02-08 08:40:38) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsGOgtub3RpY2UiLSN7QHRob3VnaHQuY29udGVudH0gaGFzIGJlZW4g
+cmVtZW1iZXJlZC4GOgpAdXNlZHsGOwZUOgxjc3JmX2lkIiVjODU5ZDgyNGZh
+NmFlZWUxMDEwYmIzNzY2NDkzNTY3OA==--efde8ce8f247ed0533655925ab69645116df07f1
+  Parameters: {"action"=>"show", "id"=>"list", "controller"=>"thoughts"}
+  [4;36;1mThought Load (0.000508)[0m   [0;1mSELECT * FROM "thoughts" WHERE ("thoughts"."id" = 0) [0m
+
+
+ActiveRecord::RecordNotFound (Couldn't find Thought with ID=list):
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1379:in `find_one'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1362:in `find_from_ids'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:537:in `find'
+    /app/controllers/thoughts_controller.rb:24:in `show'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ThoughtsController#index (for 127.0.0.1 at 2009-02-08 08:40:43) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--a5b772246ffddf35822448a4dc8f20da73a74115
+  Parameters: {"action"=>"index", "controller"=>"thoughts"}
+  [4;35;1mThought Load (0.003383)[0m   [0mSELECT * FROM "thoughts" [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/index
+Completed in 0.05017 (19 reqs/sec) | Rendering: 0.02208 (44%) | DB: 0.00338 (6%) | 200 OK [http://localhost/thoughts/]
+
+
+Processing ThoughtsController#show (for 127.0.0.1 at 2009-02-08 08:40:48) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAx
+MGJiMzc2NjQ5MzU2Nzg=--f8541646e1aa90ff6f015d3b0b4c1cbd48e7e1eb
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"thoughts"}
+  [4;36;1mThought Load (0.000860)[0m   [0;1mSELECT * FROM "thoughts" WHERE ("thoughts"."id" = 8) [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/show
+Completed in 0.16934 (5 reqs/sec) | Rendering: 0.00865 (5%) | DB: 0.00086 (0%) | 200 OK [http://localhost/thoughts/8]
+
+
+Processing ThoughtsController#destroy (for 127.0.0.1 at 2009-02-08 08:40:55) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--a5b772246ffddf35822448a4dc8f20da73a74115
+  Parameters: {"action"=>"destroy", "id"=>"8", "controller"=>"thoughts"}
+  [4;35;1mThought Load (0.001301)[0m   [0mSELECT * FROM "thoughts" WHERE ("thoughts"."id" = 8) [0m
+  [4;36;1mThought Destroy (0.000856)[0m   [0;1m DELETE FROM "thoughts"
+ WHERE "id" = 8
+[0m
+Redirected to http://localhost:3000/thoughts
+Completed in 0.04433 (22 reqs/sec) | DB: 0.00216 (4%) | 302 Found [http://localhost/thoughts/destroy/8]
+
+
+Processing ThoughtsController#index (for 127.0.0.1 at 2009-02-08 08:40:55) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAx
+MGJiMzc2NjQ5MzU2Nzg=--f8541646e1aa90ff6f015d3b0b4c1cbd48e7e1eb
+  Parameters: {"action"=>"index", "controller"=>"thoughts"}
+  [4;35;1mThought Load (0.004204)[0m   [0mSELECT * FROM "thoughts" [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/index
+Completed in 0.04791 (20 reqs/sec) | Rendering: 0.01993 (41%) | DB: 0.00420 (8%) | 200 OK [http://localhost/thoughts]
+
+
+Processing ThoughtsController#show (for 127.0.0.1 at 2009-02-08 08:40:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--a5b772246ffddf35822448a4dc8f20da73a74115
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"thoughts"}
+  [4;36;1mThought Load (0.000833)[0m   [0;1mSELECT * FROM "thoughts" WHERE ("thoughts"."id" = 7) [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/show
+Completed in 0.03082 (32 reqs/sec) | Rendering: 0.00695 (22%) | DB: 0.00083 (2%) | 200 OK [http://localhost/thoughts/7]
+
+
+Processing ThoughtsController#destroy (for 127.0.0.1 at 2009-02-08 08:41:05) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAx
+MGJiMzc2NjQ5MzU2Nzg=--f8541646e1aa90ff6f015d3b0b4c1cbd48e7e1eb
+  Parameters: {"action"=>"destroy", "id"=>"7", "controller"=>"thoughts"}
+  [4;35;1mThought Load (0.001346)[0m   [0mSELECT * FROM "thoughts" WHERE ("thoughts"."id" = 7) [0m
+  [4;36;1mThought Destroy (0.000874)[0m   [0;1m DELETE FROM "thoughts"
+ WHERE "id" = 7
+[0m
+Redirected to http://localhost:3000/thoughts
+Completed in 0.04021 (24 reqs/sec) | DB: 0.00222 (5%) | 302 Found [http://localhost/thoughts/destroy/7]
+
+
+Processing ThoughtsController#index (for 127.0.0.1 at 2009-02-08 08:41:05) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--a5b772246ffddf35822448a4dc8f20da73a74115
+  Parameters: {"action"=>"index", "controller"=>"thoughts"}
+  [4;35;1mThought Load (0.004083)[0m   [0mSELECT * FROM "thoughts" [0m
+Rendering template within layouts/thoughts
+Rendering thoughts/index
+Completed in 0.04335 (23 reqs/sec) | Rendering: 0.01633 (37%) | DB: 0.00408 (9%) | 200 OK [http://localhost/thoughts]
+
+
+Processing ThoughtsController#new (for 127.0.0.1 at 2009-02-08 08:41:34) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAx
+MGJiMzc2NjQ5MzU2Nzg=--f8541646e1aa90ff6f015d3b0b4c1cbd48e7e1eb
+  Parameters: {"action"=>"new", "controller"=>"thoughts"}
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 0.03417 (29 reqs/sec) | Rendering: 0.01025 (30%) | DB: 0.00000 (0%) | 200 OK [http://localhost/thoughts/new]
+
+
+Processing ThoughtsController#create (for 127.0.0.1 at 2009-02-08 08:43:50) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--a5b772246ffddf35822448a4dc8f20da73a74115
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7ecc7788e2ca8325a50511421b9112f2cf1bbf7b", "action"=>"create", "thought"=>{"content"=>"tora, tora, tora"}, "controller"=>"thoughts"}
+  [4;36;1mThought Create (0.000746)[0m   [0;1mINSERT INTO "thoughts" ("created_at", "updated_at", "content") VALUES('2009-02-08 08:43:50', '2009-02-08 08:43:50', 'tora, tora, tora')[0m
+Redirected to http://localhost:3000/thoughts/new
+Completed in 0.04233 (23 reqs/sec) | DB: 0.00075 (1%) | 302 Found [http://localhost/thoughts]
+
+
+Processing ThoughtsController#new (for 127.0.0.1 at 2009-02-08 08:43:50) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsGOgtub3RpY2UiKnRvcmEsIHRvcmEsIHRvcmEgaGFzIGJlZW4gcmVt
+ZW1iZXJlZC4GOgpAdXNlZHsGOwZGOgxjc3JmX2lkIiVjODU5ZDgyNGZhNmFl
+ZWUxMDEwYmIzNzY2NDkzNTY3OA==--3c85a794b51c24ee81d8511114953055318a217a
+  Parameters: {"action"=>"new", "controller"=>"thoughts"}
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 0.15127 (6 reqs/sec) | Rendering: 0.01085 (7%) | DB: 0.00000 (0%) | 200 OK [http://localhost/thoughts/new]
+
+
+Processing ThoughtsController#new (for 127.0.0.1 at 2009-02-08 09:38:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYzg1OWQ4MjRmYTZhZWVlMTAxMGJiMzc2NjQ5MzU2
+NzgiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIip0b3JhLCB0b3JhLCB0b3JhIGhhcyBiZWVuIHJlbWVt
+YmVyZWQuBjoKQHVzZWR7BjsHVA==--a4b24814549323d80878e18c3c0d4bac8b528779
+  Parameters: {"action"=>"new", "controller"=>"thoughts"}
+Rendering template within layouts/thoughts
+Rendering thoughts/new
+Completed in 0.06562 (15 reqs/sec) | Rendering: 0.01172 (17%) | DB: 0.00000 (0%) | 200 OK [http://localhost/thoughts/new]
