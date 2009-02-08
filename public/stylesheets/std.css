@@ -1,4 +1,10 @@
-html, body { background-color: #fff; color: #333; height: 100%; margin: 0px }
+html, body {
+  background-color: #fff;
+  color: #333;
+  height: 100%;
+  margin: 0px;
+  overflow: hidden
+}
 
 body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
@@ -108,9 +114,9 @@ a:hover { color: #fff; background-color:#000; }
 
 .timelineContainer {
   position: absolute;
-  
   width: 100%;
-  bottom: 0px;
+  height: 250px;
+  bottom: 45px;
   text-align: right;
   z-index: 800;
 }
