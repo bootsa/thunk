@@ -11,8 +11,8 @@ xml.rss(:version=>"2.0"){
         xml.description(thought.content)
         # rfc822
         xml.pubDate(thought.created_at.rfc2822)
-      xml.link("#{@basesite}/show/#{thought.id}")
-      xml.guid("#{@basesite}/show/#{thought.id}")
+        xml.link("#{@basesite}/show/#{thought.id}")
+        xml.guid("#{@basesite}/show/#{thought.id}")
       end
     end
   }

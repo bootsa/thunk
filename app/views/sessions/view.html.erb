@@ -1,0 +1,14 @@
+<h1>Listing thoughts</h1>
+<% if @sessions.empty? %>
+  no sessions!
+<% else %>
+<table>
+<% for session in @sessions %>
+  <tr>
+    <td><%=h session %></td>
+  </tr>
+<% end %>
+</table>
+<% end %>
+<br />
+

@@ -1,0 +1,21 @@
+<div class="bkgdContainer">
+  <span class="bkgdTitle">log-in</span>
+</div>
+
+<div class="container">
+ <div class="loginForm">
+  <% form_tag session_path do -%>
+   <%= text_field_tag 'login', @login %>
+   <br/>
+   <%= password_field_tag 'password', nil %>
+   <br/>
+   <%= label_tag 'remember_me', 'Remember me' %>
+   <%= check_box_tag 'remember_me', '1', @remember_me %>
+   <br/>
+   <%= text_field_tag 'openid_url' %>
+   <br/>
+   <%= submit_tag 'log in' %>
+  <% end -%>
+ </div>
+</div>
+

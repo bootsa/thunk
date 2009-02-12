@@ -6,13 +6,26 @@
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <title>thoughts</title>
   <%= stylesheet_link_tag 'std' %>
-  <link href="/thoughts.rss" title="Thoughts" type="application/rss+xml" rel="alternate"/>
+  <%= auto_discovery_link_tag %>
 </head>
 <body>
 
- <% if flash[:notice] -%>
-  <div class="infoPane"><%= flash[:notice] %></div>
+<div class="infoPane">
+ <% if logged_in? -%>
+ <div class="logBox">
+  you: <strong><%=h current_user.login %></strong> <%= link_to 'Logout', logout_path %>
+ </div>
+ <% else -%>
+ <div class="logBox">
+  <strong>You are currently not logged in.</strong> <%= link_to 'Login', login_path %> </div>
  <% end -%>
+ <% if flash[:error] -%>
+  <div class="flashError"><%= flash[:error] %></div>
+ <% end -%>
+ <% if flash[:notice] -%>
+  <div class="flashNotice"><%= flash[:notice] %></div>
+ <% end -%>
+</div>
 
  <%= yield  %>
 

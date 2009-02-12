@@ -1,3 +1,5 @@
+<% if logged_in? %>
+
 <div class="bkgdContainer">
   <span class="bkgdTitle">thought</span>
 </div>
@@ -11,8 +13,10 @@
     </span>
     <%= f.error_messages %>
   <% end %>
+ </div>
 </div>
 
+<% if (true == false) %>
 <div class="timelineContainer">
  <div class="timeline">
   <%= render(:partial => "show_timeline") %>
@@ -21,3 +25,7 @@
   Hide
  </div>
 </div>
+<% end %>
+
+<% end %>
+

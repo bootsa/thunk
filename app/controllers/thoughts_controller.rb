@@ -1,4 +1,8 @@
 class ThoughtsController < ApplicationController
+  
+  before_filter :login_required
+  after_filter :store_location, :only => [:index, :new, :show, :edit]
+
   # GET /thoughts
   # GET /thoughts.xml
   def index
