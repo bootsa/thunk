@@ -6,7 +6,7 @@ class ThoughtsController < ApplicationController
   # GET /thoughts
   # GET /thoughts.xml
   def index
-    @thoughts = Thought.find(:all)
+    @thoughts = session[:current_user].Thought.find(:all)
 
     respond_to do |format|
       format.html # index.html.erb

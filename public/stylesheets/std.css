@@ -134,12 +134,11 @@ a:hover { color: #fff; background-color:#000; }
 }
 
 .thoughtForm textarea {
-  border: black solid thin;
+  border:hidden;
+  
+  border-bottom: #ccc solid thin;
   background-color: transparent;
   font-size: xx-large;
-#  vertical-align: bottom;
-# may need to remove the following line once autoexpand textarea works;
-  height: 11.00em;
 }
 
 .timelineContainer {

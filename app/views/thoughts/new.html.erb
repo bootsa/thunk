@@ -7,7 +7,7 @@
 <div class="container">
  <div class="thoughtForm">
   <% form_for(@thought) do |f| %>
-    <%= f.text_area :content %>
+    <%= f.text_area :content, :rows => 1 %>
     <span style="text-align:right">
       <%= f.submit "Create" %>
     </span>
