@@ -73,14 +73,14 @@ a:hover { color: #fff; background-color:#000; }
   padding: 6px;
 }
 
-.flashNotice {
+#flashNotice {
   margin:inherit;
   color: green;
   border: 2pt solid green;
   padding: 6px;
 }
 
-.flashError {
+#flashError {
   margin:inherit;
   border: #f00 solid thin;
   padding: 6px;

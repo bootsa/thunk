@@ -21,10 +21,21 @@
   <strong>You are currently not logged in.</strong> <%= link_to 'Login', login_path %> </div>
  <% end -%>
  <% if flash[:error] -%>
-  <%= content_tag 'DIV', flash[:error], :id => "flashError", :onload => visual_effect(:highlight, this, :duration => 1.0) -%>
+  <%= content_tag 'DIV', flash[:error], :id => "flashError", :complete => visual_effect(:highlight, :duration => 1.0) -%>
+  <%= update_page_tag do |page|
+       page[:flashError].visual_effect :pulsate
+     end
+  %> 
  <% end -%>
  <% if flash[:notice] -%>
-  <div id="flashNotice"><%= flash[:notice] %></div>
+  <%= content_tag 'DIV', flash[:notice], :id => 'flashNotice', :complete => visual_effect(:blind_down, :duration => 1.0) -%>
+  <%= update_page_tag do |page|
+       page[:flashNotice].visual_effect :blind_down
+       page.delay(2) do
+         page[:flashNotice].visual_effect :blind_up
+       end
+     end
+  %> 
  <% end -%>
 </div>
 
