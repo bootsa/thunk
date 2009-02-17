@@ -6,7 +6,8 @@ class ThoughtsController < ApplicationController
   # GET /thoughts
   # GET /thoughts.xml
   def index
-    @thoughts = session[:current_user].Thought.find(:all)
+    @user = User.find(current_user)
+    @thoughts = @user.thoughts.find(:all)
 
     respond_to do |format|
       format.html # index.html.erb
@@ -17,9 +18,6 @@ class ThoughtsController < ApplicationController
        render :layout => false
       }
     end
-  end
-
-  def rss
   end
 
   # GET /thoughts/1

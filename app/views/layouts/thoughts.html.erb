@@ -14,7 +14,7 @@
 <div class="infoPane">
  <% if logged_in? -%>
  <div class="logBox">
-  you: <strong><%=h current_user.login %></strong> <%= link_to 'Logout', logout_path %>
+   <%= link_to 'Logout', logout_path %> of <strong><%= link_to_user current_user %></strong>
  </div>
  <% else -%>
  <div class="logBox">
