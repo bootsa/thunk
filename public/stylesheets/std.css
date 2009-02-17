@@ -128,17 +128,51 @@ a:hover { color: #fff; background-color:#000; }
 }
 
 .thoughtForm {
-  position: relative;
-  top: 10%;
-  text-align: center;  
+  position: absolute;
+  bottom: 30%;
+  width: 100%;
+  text-align: center;
+  border: 0;
 }
 
-.thoughtForm textarea {
+.thoughtForm textarea#thought_content {
   border:hidden;
-  
   border-bottom: #ccc solid thin;
   background-color: transparent;
-  font-size: xx-large;
+  font-size: 30px;
+  height:75px;
+  width:70%;
+  padding-left: 40px;
+  padding-right: 40px;
+  
+}
+
+.thoughtForm input#thought_submit {
+  width: 42px;
+  height: 42px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent url(/images/icons/submitbutton_off.png) no-repeat center top;
+  text-indent: -1000em;
+  cursor: pointer; /* hand-shaped cursor */
+}
+
+.thoughtForm input#thought_submit:hover {
+  background: transparent url(/images/icons/submitbutton_on.png) no-repeat center top;
+  cursor: pointer; /* hand-shaped cursor */
+}
+
+.thoughtForm input#thought_submit:active {
+  background: transparent url(/images/icons/submitbutton_off.png) no-repeat center top;
+  cursor: pointer; /* hand-shaped cursor */
+}
+
+.thoughtControls {
+  position: absolute;
+  right: 8%;
+  margin: 4px;
+  padding: 4px;
 }
 
 .timelineContainer {
