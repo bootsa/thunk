@@ -17,6 +17,15 @@
  </div>
 </div>
 
+<% javascript_tag do -%>
+Event.observe(document, 'keypress', function(event) {
+  if (event.keyCode == Event.KEY_RETURN && event.ctrlKey && !event.altKey && !event.shiftKey && event.originalTarget.id != 'thought_submit') {
+    document.getElementById('new_thought').submit();
+    Event.stop(event);
+  }
+});
+<% end -%>
+
 <% if (true == false) %>
 <div class="timelineContainer">
  <div class="timeline">

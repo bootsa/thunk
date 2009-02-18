@@ -51,6 +51,7 @@ class ThoughtsController < ApplicationController
   # POST /thoughts.xml
   def create
     @thought = Thought.new(params[:thought])
+    @thought.user_id = current_user.id
 
     respond_to do |format|
       if @thought.save
