@@ -3,6 +3,7 @@ class SessionsController < ApplicationController
 
   # render new.rhtml
   def new
+    @pageTitle = "log-in"
   end
 
   def create
@@ -14,6 +15,7 @@ class SessionsController < ApplicationController
   end
   
   def view
+    @pageTitle = "show"
     @sessions = Session.find(:all)
   end
 
@@ -26,8 +28,13 @@ class SessionsController < ApplicationController
 protected
   # Track failed login attempts
   def note_failed_signin
-    flash[:error] = "Couldn't log you in as '#{params[:login]}'"
-    logger.warn "Failed login for '#{params[:login]}' from #{request.remote_ip} at #{Time.now.utc}"
+    if params[:login].empty?
+      flash[:error] = "Username appears to be blank!"
+      logger.warn "Failed login - no username - from #{request.remote_ip} at #{Time.now.utc}"
+    else
+      flash[:error] = "Login '#{params[:login]}' failed.\nPlease try again."
+      logger.warn "Failed login for '#{params[:login]}' from #{request.remote_ip} at #{Time.now.utc}"
+    end
   end
   
   def open_id_authentication

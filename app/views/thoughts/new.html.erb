@@ -1,13 +1,7 @@
 <% if logged_in? %>
-
-<div class="bkgdContainer">
-  <span class="bkgdTitle">thought</span>
-</div>
-
-<div class="container">
  <div class="thoughtForm">
   <% form_for(@thought) do |f| %>
-    <%= f.text_area :content, :class => "expand" %>
+    <%= f.text_area :content, :class => "expand transparentBkgd underedged" %>
     <br />
     <div class="thoughtControls">
       <%= f.error_messages %>
@@ -15,7 +9,6 @@
     </div>
   <% end %>
  </div>
-</div>
 
 <% javascript_tag do -%>
 Event.observe(document, 'keypress', function(event) {

@@ -6,6 +6,7 @@ class ThoughtsController < ApplicationController
   # GET /thoughts
   # GET /thoughts.xml
   def index
+    @pageTitle = "list \'em"
     @user = User.find(current_user)
     @thoughts = @user.thoughts.find(:all)
 
@@ -23,6 +24,7 @@ class ThoughtsController < ApplicationController
   # GET /thoughts/1
   # GET /thoughts/1.xml
   def show
+    @pageTitle = "divulge"
     @thought = Thought.find(params[:id])
 
     respond_to do |format|
@@ -34,6 +36,7 @@ class ThoughtsController < ApplicationController
   # GET /thoughts/new
   # GET /thoughts/new.xml
   def new
+    @pageTitle = "thought"
     @thought = Thought.new
 
     respond_to do |format|
@@ -44,6 +47,7 @@ class ThoughtsController < ApplicationController
 
   # GET /thoughts/1/edit
   def edit
+    @pageTitle = "alter"
     @thought = Thought.find(params[:id])
   end
 

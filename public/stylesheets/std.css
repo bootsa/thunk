@@ -139,10 +139,7 @@ a:hover { color: #fff; background-color:#000; }
 }
 
 .thoughtForm textarea#thought_content {
-  border:hidden;
-  border-bottom: #ccc solid thin;
-  background-color: transparent;
-  font-size: 30px;
+  font-size: xx-large;
   height:75px;
   width:70%;
   padding-left: 40px;
@@ -202,4 +199,18 @@ input#openid_url {
    background-position: 0 50%;
    color: #000;
    padding-left: 18px;
+}
+
+.underedged {
+  border:hidden;
+  border-bottom: #aaa solid medium;
+  padding: 10px;
+}
+
+.transparentBkgd {
+  background-color: transparent;
+}
+
+.entryText {
+  font-size: x-large;  
 }
